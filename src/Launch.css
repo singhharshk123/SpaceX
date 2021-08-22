@@ -1,0 +1,23 @@
+.upcoming{
+    color: orange;
+    background:rgba(255, 166, 0, 0.432);
+    border-radius: 15px;
+}
+
+.failed {
+    color: red;
+    background:rgba(255, 72, 0, 0.288);
+    border-radius: 15px;
+}
+
+.success {
+    color:green;
+    background: rgba(0, 128, 0, 0.178);
+    border-radius: 15px;
+}
+
+
+.namedData {
+    text-align: right;
+    border-radius: 15px;
+}

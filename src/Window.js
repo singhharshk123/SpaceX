@@ -14,9 +14,7 @@ function Window({rocketId}) {
       <Button variant="primary" onClick={handleShow}> View </Button>
      
       <Modal  show={show} onHide={handleClose}>
-      <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
-        </Modal.Header>
+     
         <CardFile rocketId={rocketId} />
         
       </Modal>

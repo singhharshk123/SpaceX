@@ -6,7 +6,7 @@ import SpaceX from "./SpaceX";
 import { useState , useEffect} from "react";
 import Pagination from './Pagination';
 // import Window from "./Window";
-import Filter from "./Filter";
+// import Filter from "./Filter";
 import { Fragment } from "react";
 
 
@@ -55,7 +55,7 @@ items.upcoming && items.launch_success !== filterLaunch
   return (
     <div className="App">
      <Fragment><SpaceX /><h6>This Site is created by :- Harsh Singh</h6></Fragment>
-      <Filter  onChange={handleChange} filterLaunch={filterLaunch} setFilterLaunch={setFilterLaunch} />
+      {/* <Filter  onChange={handleChange} filterLaunch={filterLaunch} setFilterLaunch={setFilterLaunch} /> */}
       
         {/* <Launch data={currentPost}  /> */}
         <Launch data={currentPost} rocketFilter={rocketFilter} />
